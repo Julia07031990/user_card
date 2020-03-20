@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://images5.alphacoders.com/532/532651.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.userCardContainer{
+    background-color: white;
+    width: 100%;
+    min-width: 120px;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 250px;
+    font-family: 'Rochester', sans-serif;
+}
+.userCardContainer > hr{
+    width: 230px;
+    margin-top: -15px;
+}
+.userCardContainer > h1 {
+    color: rgb(150,22,37);
+    padding: inherit;
+}
+.userCardContainer > h2 {
+    margin-top: 10px;
+    color: rgb(150,22,37);
+    padding: inherit;
+}
+.userCardContainer > h3 {
+    margin-top: -20px;
+    color: forestgreen;
+    padding: inherit;
+}
+.userCardContainer > h4 {
+    margin-top: -15px;
+    color: mediumblue;
+    padding: inherit;
+}
+.userInfoContainer > * {
+    margin: 0 auto;
+}
+.user1{
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -62px;
+}
+.user2{
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    background-color: rgb(150,22,37);
+    margin-top: -138px;
+}
+.userAvatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: -132px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.userAvatar > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.line{
+    border-right: 1px solid grey;
+    padding: 5px;
+    margin: -5px;
+}
+.line1{
+    border-right: 1px;
+    padding: 5px;
+    margin: -5px;
+}
+.verticalAlign {
+    display: inline-block;
+    height: 27px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+.userPhotos{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.new{
+    background: -moz-linear-gradient(#ff8664,white,#ff8664);
+    background: -webkit-gradient(linear,0 0, 0 100%, from(#ff8664), to(#ff8664), color-stop(0.5, white));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8664', endColorstr='#ffffff');
+    border-color: rgb(150,22,37);
+    color: mediumblue;
+    font-family: 'Rochester', sans-serif;
+    font-size: x-large;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
